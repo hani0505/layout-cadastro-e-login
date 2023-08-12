@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding:0;
+    
+}
+body{
+    
+    background-color: gray;
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.form{
+    border: 3px solid gainsboro;
+    align-items: center;
+    transform: scale(1.7);
+    padding: 2px;
+    background-color: rgb(27, 32, 25);
+    color: aliceblue;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+    
+}
+
+.center{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      
+
+}
+
+::placeholder{
+    font-size: 8px;
+}
